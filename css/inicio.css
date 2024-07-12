@@ -15,7 +15,6 @@
 .menu-header-container, .menu-body-container {
   box-sizing: border-box;
   display: flex;
-  background-color: #fff;
   justify-content: center;
   align-items: center;
 }
@@ -45,12 +44,17 @@
   box-sizing: border-box;
   margin: auto;
 }
-.col_6 li a{
+.col_6 ul a , .nav-list a{
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
   padding: 5px;
+}
+.translate {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
 }
 .social-networks {
   display: flex;
@@ -62,9 +66,32 @@
 
 .nav-list {
    list-style-type: none;
+   box-sizing: border-box;
    align-items: center;
    display: flex;
    gap: 24px;
    margin: 0;
-   padding: 0;
+   padding: 0 0 0 70px;
+}
+.nav-search {
+  display: flex;
+  box-sizing: border-box;
+  align-items:  center;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+.search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.private-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  padding: 0.5rem;
 }
