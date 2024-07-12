@@ -1,0 +1,70 @@
+.cuerpo {
+  box-sizing: border-box;
+}
+.menu-container {
+  display: block;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.menu-header .menu-body {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.menu-header-container, .menu-body-container {
+  box-sizing: border-box;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  height: 68px;
+}
+.list-left, .list-right {
+  justify-content: end;
+  line-height: 20px;
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+.list-left {
+  padding-right: 70px;
+}
+.col_6 {
+  max-width: 100%;
+  flex: 0 0 auto; 
+  padding-right: 70px;
+}
+.col_6 li{
+  float: left;
+  box-sizing: border-box;
+  margin: auto;
+}
+.col_6 li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.social-networks {
+  display: flex;
+}
+.social-networks img{
+  width: 20px;
+  height: 20px;
+}
+
+.nav-list {
+   list-style-type: none;
+   align-items: center;
+   display: flex;
+   gap: 24px;
+   margin: 0;
+   padding: 0;
+}
