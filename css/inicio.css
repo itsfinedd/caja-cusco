@@ -1,3 +1,6 @@
+* {
+  font-family: 'Bai Jamjuree';
+}
 .cuerpo {
   box-sizing: border-box;
 }
@@ -12,11 +15,17 @@
   justify-content: center;
   align-items: center;
 }
-.menu-header-container, .menu-body-container {
-  box-sizing: border-box;
+.menu-header-container{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu-body-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .logo img{
   height: 68px;
@@ -36,7 +45,7 @@
 }
 .col_6 {
   max-width: 100%;
-  flex: 0 0 auto; 
+  flex: 0 0 auto;
   padding-right: 70px;
 }
 .col_6 li{
@@ -50,6 +59,8 @@
   align-items: center;
   box-sizing: border-box;
   padding: 5px;
+  text-decoration: none;
+  color: inherit;
 }
 .translate {
   list-style-type: none;
@@ -95,3 +106,130 @@
   border-radius: 20px;
   padding: 0.5rem;
 }
+footer {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.col-footer {
+  flex: 1;
+  min-width: 200px;
+  margin: 40px;
+}
+
+.bod-footer h5 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.bod-footer ul {
+  /*font-weight: bold;*/
+  list-style: none;
+  padding: 0;
+}
+
+.bod-footer ul li {
+  margin-bottom: 5px;
+  color: inherit;
+}
+
+.bod-footer ul li a {
+  color: #808080;
+  text-decoration: none;
+
+}
+.bod-footer ul li a:hover {
+  color: red;
+  text-decoration: none;
+}
+.bod-footer ul span{
+  color: #808080;
+}
+.logo-footer-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  width: 100%;
+}
+.footer-image{
+  margin-right: 100px;
+}
+footer hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin-bottom: 20px;
+}
+.footer-telefono {
+  font-size: 25px;
+}
+.ofic-central, .central-telef {
+  font-weight: bold;
+}
+.footer-bottom {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.footer-legal {
+  width: 100%;
+  margin: 0;
+  padding: 30px;
+  background-color: #e1f2eb;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: .5px solid rgba(128, 128, 128, 0.5);
+}
+
+.footer-links a {
+  margin: 10px;
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+  color: #333;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.footer-legal {
+  text-align: center;
+  color: #333;
+}
+
+.footer-legal a {
+  margin-left: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-legal a:hover {
+  text-decoration: none;
+  color: #00f;
+}
+
+
